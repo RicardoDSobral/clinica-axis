@@ -1,0 +1,28 @@
+.barra-superior {
+    background-color: #E9EAE7;
+    color: #2A2628;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.agendamento {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    padding: 1em;
+    border: 1px solid black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover, 
+a:active {
+    text-decoration: underline;
+}
