@@ -8,13 +8,13 @@
 .agendamento {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 1em;
 }
 
 a {
     text-decoration: none;
     color: inherit;
-    padding: 1em;
-    border: 1px solid black;
 }
 
 a:visited {
