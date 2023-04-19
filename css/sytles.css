@@ -1,15 +1,7 @@
-.barra-superior {
-    background-color: #E9EAE7;
-    color: #2A2628;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.agendamento {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1em;
+/* CSS Reset */
+html,
+body {
+    margin: 0px;
 }
 
 a {
@@ -25,4 +17,21 @@ a:visited {
 a:hover, 
 a:active {
     text-decoration: underline;
+}
+
+/* Actual CSS */
+
+.barra-superior {
+    background-color: #E9EAE7;
+    color: #2A2628;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.agendamento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    margin-right: 1em;
 }
