@@ -22,7 +22,7 @@ a:active {
 /* Actual CSS */
 
 .barra-superior {
-    background-color: #E9EAE7;
+    background-color: #F8F7F7;
     color: #2A2628;
     display: flex;
     justify-content: flex-end;
@@ -34,4 +34,32 @@ a:active {
     align-items: center;
     gap: 1em;
     margin-right: 1em;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E9EAE7;
+}
+
+.logo {
+    max-height: 240px;
+    width: auto;
+    flex-shrink: 1;
+}
+
+.nav {
+    margin-right: 1em;
+    flex-shrink: 1;
+}
+
+.navegador {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    flex-wrap: wrap;
+    padding-inline-start: 0;
 }
