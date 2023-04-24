@@ -4,6 +4,10 @@ body {
     margin: 0px;
 }
 
+ul {
+    padding: 0;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -26,6 +30,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    text-align: center;
 }
 
 main {
@@ -89,6 +94,16 @@ main {
     flex-direction: column;
     align-items: center;
     margin: 0 20%;
+}
+
+.valores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista-valores {
+    list-style: none;
 }
 
 .equipe-medica {
