@@ -15,7 +15,8 @@ a:visited {
 }
 
 a:hover, 
-a:active {
+a:active, 
+a:focus {
     text-decoration: underline;
 }
 
@@ -51,7 +52,7 @@ a:active {
 }
 
 .nav {
-    margin-right: 1em;
+    padding: 16px;
     flex-shrink: 1;
 }
 
@@ -60,7 +61,7 @@ a:active {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1em;
+    gap: 16px;
     flex-wrap: wrap;
     padding-inline-start: 0;
 }
