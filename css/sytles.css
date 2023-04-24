@@ -64,6 +64,7 @@ main {
 }
 
 .agendamento h3 {
+    padding-left: 16px;
     flex: 1;
 }
 
@@ -146,7 +147,8 @@ main {
     background-color: #F8F7F7;
 }
 
-.lista-medicos {
+.lista-medicos, 
+.lista-fisio {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -154,7 +156,8 @@ main {
     gap: 8px;
 }
 
-.medico {
+.medico, 
+.fisioteraputa {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -162,7 +165,8 @@ main {
     margin: 8px 16px;
 }
 
-.foto-medico {
+.foto-medico, 
+.retrato-fisio {
     background-color: aqua;
     height: 300px;
     width: 300px;
@@ -172,8 +176,24 @@ main {
     flex: 1 1 auto;
 }
 
-.nome-medico {
+.nome-medico, 
+.nome-fisio {
     padding: 16px;
+}
+
+.fisioterapia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto-fisio-container {
+    flex: 0 1 auto;
+}
+
+.foto-fisio {
+    width: 80%;
+    height: auto;
 }
 
 footer {
