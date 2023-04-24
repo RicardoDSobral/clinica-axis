@@ -78,6 +78,21 @@ main {
     padding-inline-start: 0;
 }
 
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.missao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20%;
+}
+
+
+
 footer {
     background-color: #E9EAE7;
     color: #2A2628;
