@@ -32,6 +32,10 @@ figure {
 
 /* Actual CSS */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     display: flex;
     flex-direction: column;
