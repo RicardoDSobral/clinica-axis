@@ -47,11 +47,29 @@ main {
 
 .agendamento {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     gap: 16px;
-    margin-right: 16px;
+    padding: 16px;
+}
+
+.agendamento h3 {
+    flex: 1;
+}
+
+.lista-telefone {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    list-style: none;
+}
+
+.telefone {
+    padding: 8px;
+    flex: 1;
+    white-space: nowrap;
 }
 
 .header {
