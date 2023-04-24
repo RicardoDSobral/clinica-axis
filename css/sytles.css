@@ -22,19 +22,31 @@ a:focus {
 
 /* Actual CSS */
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
 .barra-superior {
     background-color: #F8F7F7;
     color: #2A2628;
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
 }
 
 .agendamento {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1em;
-    margin-right: 1em;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-right: 16px;
 }
 
 .header {
@@ -64,4 +76,17 @@ a:focus {
     gap: 16px;
     flex-wrap: wrap;
     padding-inline-start: 0;
+}
+
+footer {
+    background-color: #E9EAE7;
+    color: #2A2628;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.direitos {
+    text-align: center;
 }
