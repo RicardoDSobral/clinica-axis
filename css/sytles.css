@@ -91,7 +91,42 @@ main {
     margin: 0 20%;
 }
 
+.equipe-medica {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F7F7;
+}
 
+.lista-medicos {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 8px;
+}
+
+.medico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    margin: 8px 16px;
+}
+
+.foto-medico {
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.nome-medico {
+    padding: 16px;
+}
 
 footer {
     background-color: #E9EAE7;
