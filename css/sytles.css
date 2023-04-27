@@ -208,3 +208,19 @@ footer {
 .direitos {
     text-align: center;
 }
+
+.localizacao {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 32px;
+}
+
+.mapa {
+    flex: 0 1 auto;
+}
+
+.endereco {
+    display: flex;
+    flex-direction: column;
+}
