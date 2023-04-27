@@ -47,6 +47,10 @@ main {
     flex: 1;
 }
 
+p {
+    margin: 16px;
+}
+
 .barra-superior {
     background-color: #F8F7F7;
     color: #2A2628;
