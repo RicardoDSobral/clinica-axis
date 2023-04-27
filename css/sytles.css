@@ -144,7 +144,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #F8F7F7;
 }
 
 .lista-medicos, 
@@ -214,6 +213,7 @@ footer {
     justify-content: center;
     align-content: center;
     padding: 32px;
+
 }
 
 .mapa {
@@ -223,4 +223,28 @@ footer {
 .endereco {
     display: flex;
     flex-direction: column;
+}
+
+.lista-contatos li {
+    margin: 16px;
+}
+
+.button {
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.wp {
+    background-color: #075E54;
+    color: #E9EAE7;
+    border: 0px;
+    border-radius: 8px;
+}
+
+.inst {
+
+}
+
+.fundo-cinza {
+    background-color: #F8F7F7;
 }
