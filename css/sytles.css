@@ -229,6 +229,10 @@ footer {
     flex-direction: column;
 }
 
+.lista-contatos {
+    list-style: none;
+}
+
 .lista-contatos li {
     margin: 16px;
 }
