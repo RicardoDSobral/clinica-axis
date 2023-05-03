@@ -150,8 +150,7 @@ p {
     align-items: center;
 }
 
-.lista-medicos, 
-.lista-fisio {
+.lista-retratos {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -159,8 +158,7 @@ p {
     gap: 8px;
 }
 
-.medico, 
-.fisioteraputa {
+.foto-card  {
     display: flex;
     flex-direction: column;
     align-items: center;
