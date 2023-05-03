@@ -197,25 +197,24 @@ p {
     height: auto;
 }
 
-footer {
-    background-color: #E9EAE7;
-    color: #2A2628;
-    padding: 16px;
+.contatos {
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.direitos {
-    text-align: center;
+    flex-wrap: wrap;
 }
 
 .localizacao {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-content: center;
     padding: 32px;
+    flex: 1;
+}
 
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .mapa {
@@ -226,6 +225,14 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 16px;
+}
+
+.redes {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 .lista-contatos {
@@ -249,9 +256,22 @@ footer {
 }
 
 .inst {
-
+    
 }
 
 .fundo-cinza {
     background-color: #F8F7F7;
+}
+
+footer {
+    background-color: #E9EAE7;
+    color: #2A2628;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.direitos {
+    text-align: center;
 }
